@@ -147,6 +147,7 @@ It's achievable by leveraging headless Lexical and no-op provider for Yjs:
         off: emptyFunction,
         on: emptyFunction,
         setLocalState: emptyFunction,
+        setLocalStateField: emptyFunction,
       },
       connect: emptyFunction,
       disconnect: emptyFunction,
